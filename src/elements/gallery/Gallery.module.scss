@@ -1,0 +1,64 @@
+@import '../../assets/scss/default/variables';
+@import "react-widgets/scss/styles.scss";
+.ImageContainer{
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 50%;
+    @media #{$lg-layout} {
+        margin-left: 0;
+        margin-right: 0;
+        width: 50%;
+    }
+    @media #{$md-layout} {
+        margin-left: 0;
+        margin-right: 0;
+        width: 50%;
+    }
+    @media #{$sm-layout} {
+        margin-left: 0;
+        margin-right: 0;
+        width: 90%;
+        margin:15px;
+    }
+    @media #{$small-mobile} {
+        margin-left: 0;
+        margin-right: 0;
+        width: 90%;
+        margin:15px;
+    }
+    @media #{$large-mobile} {
+        margin-left: 0;
+        margin-right: 0;
+        width: 90%;
+        margin:15px;
+    }
+}
+.Gallery_plus_form_container{
+    display: flex;
+    flex-direction: row;
+    @media #{$lg-layout} {
+        margin-left: 0;
+        margin-right: 0;
+     
+    }
+    @media #{$md-layout} {
+        margin-left: 0;
+        margin-right: 0;
+       
+    }
+    @media #{$sm-layout} {
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+    }
+    @media #{$small-mobile} {
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+    }
+    @media #{$large-mobile} {
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+    }
+}
