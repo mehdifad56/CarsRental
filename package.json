@@ -1,8 +1,8 @@
 {
-  "name": "CARS RENTAL PARIS",
+  "name": "cars_rental_paris",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://CARS RENTAL PARIS.rainbowit.net/",
+  "homepage": "https://cars_rental_paris.rainbowit.net/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
